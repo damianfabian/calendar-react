@@ -1,0 +1,18 @@
+.event {
+    position: absolute;
+    background: rgb(245, 245, 245);
+    border: 1px solid #dadada;
+    border-left: 5px solid rgb(71, 178, 141);
+    overflow-y: overlay;
+}
+.event h1 {
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 10 0 2px 0;
+}
+.event span.desc {
+    padding: 0;
+    color: rgb(201, 201, 201);
+    padding-left: 10px;
+    margin: 0;
+}

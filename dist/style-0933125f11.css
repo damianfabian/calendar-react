@@ -1,0 +1,67 @@
+.timeline {
+    padding-bottom: 20px;
+}
+.timeline ul {
+    padding: 0;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 61px;
+}
+.timeline .time {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 9%;
+}
+.timeline .time time {
+  display:block;
+  margin-bottom:12px;
+}
+.timeline .time subtime {
+  font-size: 10px;
+}
+.timeline .time time:first-child {
+    margin-top: -8px;
+}
+.timeline .time time:last-child {
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.hour {
+    width: 90%;
+    height: 60px;
+    border: 1px solid rgb(240, 240, 240);
+    float: right;
+    border-bottom:none;
+}
+.hour.last {
+    border-bottom: 1px solid rgb(240,240,240);
+}.event {
+    position: absolute;
+    background: rgb(245, 245, 245);
+    border: 1px solid #dadada;
+    border-left: 5px solid rgb(71, 178, 141);
+    overflow-y: overlay;
+}
+.event h1 {
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 10 0 2px 0;
+}
+.event span.desc {
+    padding: 0;
+    color: rgb(201, 201, 201);
+    padding-left: 10px;
+    margin: 0;
+}body {
+    font-family: sans-serif;
+}
+
+.app-container {
+    padding: 20px 30px 40px 0;
+    height: 720px;
+}
+/*# sourceMappingURL=style-0933125f11.css.map*/

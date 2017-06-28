@@ -1,0 +1,8 @@
+body {
+    font-family: sans-serif;
+}
+
+.app-container {
+    padding: 20px 30px 40px 0;
+    height: 720px;
+}

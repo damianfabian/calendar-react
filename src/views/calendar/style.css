@@ -1,0 +1,42 @@
+.timeline {
+    padding-bottom: 20px;
+}
+.timeline ul {
+    padding: 0;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 61px;
+}
+.timeline .time {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 9%;
+}
+.timeline .time time {
+  display:block;
+  margin-bottom:12px;
+}
+.timeline .time subtime {
+  font-size: 10px;
+}
+.timeline .time time:first-child {
+    margin-top: -8px;
+}
+.timeline .time time:last-child {
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.hour {
+    width: 90%;
+    height: 60px;
+    border: 1px solid rgb(240, 240, 240);
+    float: right;
+    border-bottom:none;
+}
+.hour.last {
+    border-bottom: 1px solid rgb(240,240,240);
+}
